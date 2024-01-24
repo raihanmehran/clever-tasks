@@ -11,7 +11,7 @@ const updateTodo = zod.object({
 
 const login = zod.object({
   username: zod.string(),
-  password: zod.password()
+  password: zod.string(),
 });
 
 module.exports = {
