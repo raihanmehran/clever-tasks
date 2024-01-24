@@ -6,6 +6,18 @@
 
 CleverTasks is web application that converts simple tasks into clever and smart tasks using generative AI.
 
+## Functionalities
+### Standard Functions
+- Anyone can signup and login
+- Anyone can create a task
+- Anyone can see their existing tasks
+- Anyone can mark a task done
+### Pro Features
+- Connecting connect tasks with Calender
+- Perfoming tasks using generative AI
+- Writing emails using generative AI
+
+
 ## Project Structure
 
 - **backend**:
