@@ -2,9 +2,16 @@ const express = require("express");
 const { createTodo } = require("./types");
 const { task } = require("./db");
 // const types = require("./types"); // we can also write it like this but the upper syntax is more clear
+const cors = require("cors");
 const app = express();
 
 app.use(express.json());
+
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+  })
+);
 
 app.get("/", function (req, res) {
   res.json({
